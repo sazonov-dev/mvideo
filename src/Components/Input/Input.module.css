@@ -1,0 +1,29 @@
+.customFileInput {
+    position: relative;
+    display: inline-block;
+}
+
+.inputFile {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 75px;
+    background-color: #6346B4;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.label:hover {
+    opacity: 0.8;
+}
+
+.input-file:active, .label:active {
+    opacity: unset;
+    background-color: #311F63;
+}

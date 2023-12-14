@@ -1,0 +1,45 @@
+.grid {
+    max-width: 1407px;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 10px 0px 0px 0px;
+    max-height: 850px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.table {
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 19px;
+}
+
+.thead {
+    font-size: 14px;
+    padding: 17px 0 17px 25px;
+    border-right: 1px solid #C0C0C0;
+}
+
+.gridLine {
+    display: grid;
+    grid-template-columns: 313px 250px 190px 173px 1fr;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.gridLine:first-child {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #C0C0C0;
+}
+
+.gridLine:not(:first-child) {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.gridLine:not(:first-child):hover {
+    cursor: pointer;
+    background-color: rgba(99, 70, 180, 0.25);
+}

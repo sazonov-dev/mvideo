@@ -1,0 +1,13 @@
+.push {
+    max-width: 720px;
+    padding: 31px 55px;
+    border-radius: 10px;
+    background-color: #FF6565;
+    box-shadow: 2px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: #fff;
+}
